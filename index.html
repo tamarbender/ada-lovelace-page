@@ -40,8 +40,13 @@
             border-radius: 50px;
         }
           footer {
-                    background-color: white;
-                }
+            background-color: white;
+            height: 100px;
+            padding: 20px;
+            text-align: center;
+            position: relative; /* Add position: relative; to prevent overlapping */
+            clear: both; /* Clear floats to ensure proper positioning */
+        }
     </style>
     
 </head>
@@ -101,8 +106,8 @@
 
 </body>
     
- <footer>
+    <footer>
         This is the white footer.
-</footer>
+    </footer>
 
 </html>
